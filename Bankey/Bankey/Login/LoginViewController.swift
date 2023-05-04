@@ -34,13 +34,14 @@ extension LoginViewController {
     private func style() {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.textAlignment = .center
-        titleLabel.textColor = .black
-        titleLabel.numberOfLines = 0
+        titleLabel.font = UIFont.preferredFont(forTextStyle: .largeTitle)
+        titleLabel.adjustsFontForContentSizeCategory = true
         titleLabel.text = "Bankey"
         
         subtitleLabel.translatesAutoresizingMaskIntoConstraints = false
         subtitleLabel.textAlignment = .center
-        subtitleLabel.textColor = .black
+        titleLabel.font = UIFont.preferredFont(forTextStyle: .title3)
+        titleLabel.adjustsFontForContentSizeCategory = true
         subtitleLabel.numberOfLines = 0
         subtitleLabel.text = "Your premium source for all things banking!"
         
@@ -76,7 +77,8 @@ extension LoginViewController {
         // SubtitleLabel
         NSLayoutConstraint.activate([
             loginView.topAnchor.constraint(equalToSystemSpacingBelow: subtitleLabel.bottomAnchor, multiplier: 3),
-            subtitleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            subtitleLabel.leadingAnchor.constraint(equalTo: loginView.leadingAnchor),
+            subtitleLabel.trailingAnchor.constraint(equalTo: loginView.trailingAnchor)
         ])
         
         // LoginView
