@@ -13,6 +13,7 @@
 		81CAD26F2A0D1EBA00501009 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81CAD26D2A0D1EBA00501009 /* LaunchScreen.storyboard */; };
 		81CAD2782A0D226800501009 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CAD2772A0D226800501009 /* PasswordTextField.swift */; };
 		81CAD27C2A0D660100501009 /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CAD27B2A0D660100501009 /* PasswordCriteriaView.swift */; };
+		81CAD27E2A0D7D7400501009 /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CAD27D2A0D7D7400501009 /* PasswordStatusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		81CAD2702A0D1EBA00501009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81CAD2772A0D226800501009 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 		81CAD27B2A0D660100501009 /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
+		81CAD27D2A0D7D7400501009 /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				81CAD27B2A0D660100501009 /* PasswordCriteriaView.swift */,
+				81CAD27D2A0D7D7400501009 /* PasswordStatusView.swift */,
 			);
 			path = PasswordStatusView;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				81CAD2672A0D1EB900501009 /* ViewController.swift in Sources */,
 				81CAD2632A0D1EB900501009 /* AppDelegate.swift in Sources */,
 				81CAD27C2A0D660100501009 /* PasswordCriteriaView.swift in Sources */,
+				81CAD27E2A0D7D7400501009 /* PasswordStatusView.swift in Sources */,
 				81CAD2782A0D226800501009 /* PasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
