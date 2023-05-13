@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813B52BB2A1002A500B00F73 /* UIResponder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813B52BA2A1002A500B00F73 /* UIResponder+Utils.swift */; };
 		81B34CA82A0E6AAA001FCBFD /* PasswordCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B34CA72A0E6AAA001FCBFD /* PasswordCriteria.swift */; };
 		81CAD2632A0D1EB900501009 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CAD2622A0D1EB900501009 /* AppDelegate.swift */; };
 		81CAD2672A0D1EB900501009 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CAD2662A0D1EB900501009 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		813B52BA2A1002A500B00F73 /* UIResponder+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Utils.swift"; sourceTree = "<group>"; };
 		81B34CA72A0E6AAA001FCBFD /* PasswordCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteria.swift; sourceTree = "<group>"; };
 		81CAD25F2A0D1EB900501009 /* Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81CAD2622A0D1EB900501009 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		813B52B92A10029200B00F73 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				813B52BA2A1002A500B00F73 /* UIResponder+Utils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		81CAD2562A0D1EB900501009 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		81CAD2612A0D1EB900501009 /* Password */ = {
 			isa = PBXGroup;
 			children = (
+				813B52B92A10029200B00F73 /* Utils */,
 				81CAD2762A0D1F1700501009 /* Files */,
 				81CAD2622A0D1EB900501009 /* AppDelegate.swift */,
 				81CAD2662A0D1EB900501009 /* ViewController.swift */,
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81CAD2672A0D1EB900501009 /* ViewController.swift in Sources */,
+				813B52BB2A1002A500B00F73 /* UIResponder+Utils.swift in Sources */,
 				81B34CA82A0E6AAA001FCBFD /* PasswordCriteria.swift in Sources */,
 				81CAD2632A0D1EB900501009 /* AppDelegate.swift in Sources */,
 				81CAD27C2A0D660100501009 /* PasswordCriteriaView.swift in Sources */,
